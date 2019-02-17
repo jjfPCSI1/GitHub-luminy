@@ -1,0 +1,14 @@
+*~
+_minted*
+*.aux
+*.log
+*.nav
+*.out
+*.pdf
+*.snm
+*.toc
+*.vrb
+*.synctex*
+*.fls
+*_latexmk
+*.pyg
