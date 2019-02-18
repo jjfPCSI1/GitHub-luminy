@@ -1,1 +1,1 @@
-$pdflatex = 'pdflatex -shell-escape -synctex=1 -interaction=nonstopmode';
+$pdflatex = 'pdflatex -shell-escape  -interaction=nonstopmode';
