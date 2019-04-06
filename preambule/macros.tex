@@ -1,4 +1,4 @@
-% Ce fichier contient toutes les macros que vous pouvez avoir envie de définir 
+% Ce fichier contient toutes les macros que vous pouvez avoir envie de définir
 % si vous les utilisez plusieurs fois dans le document.
 
 \PassOptionsToPackage{svgnames}{color}
@@ -26,7 +26,7 @@ splitbottomskip=6pt,splittopskip=12pt]
 % La dérivée temporelle, tellement courante en physique, avec les d droits
 \newcommand{\ddt}[1]{\frac{\dd #1}{\dd t}}
 
-% Des parenthèses, crochets et accolades qui s'adaptent automatiquement à la 
+% Des parenthèses, crochets et accolades qui s'adaptent automatiquement à la
 % taille de ce qu'il y a dedans
 \newcommand{\pa}[1]{\left(#1\right)}
 \newcommand{\pac}[1]{\left[#1\right]}
@@ -40,3 +40,14 @@ splitbottomskip=6pt,splittopskip=12pt]
 
 % Le produit vectoriel a un nom bizarre:
 \newcommand{\vectoriel}{\wedge}
+
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
