@@ -1,19 +1,18 @@
 % Titre de la premiere partie
-\section{Gestion des TP, ancien protocole}
+\section{Gestion des TP, nouveau protocole}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Diapo Git
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
 	\frametitle{Gestion des TP}
-	\framesubtitle{Organisation avant GitHub}
+	\framesubtitle{Organisation après GitHub}
 
 	\begin{itemize}[<+->]
-		\item	 Dossier de chaque TP distribué (depuis un ordi du lycée) sur les sessions des élèves (sur les ordis du lycée)
+		\item	 Dossier de chaque TP distribué via GitHub depuis n'importe où (souvent la maison), le tout pouvant être préparé à l'avance facilement.
 
-		\item  Travail des élèves sur les ordis du lycée et récupération sur clé USB pour bosser à la maison
+		\item  Travail des élèves sur les ordis du lycée ou leur propre ordi en ayant toujours la dernière version à jour (à condition d'avoir pensé à «pousser» leurs derniers commits)
 
-		\item Ramassage des dossiers des élèves (depuis un ordi du lycée)
+		\item Ramassage des dossiers des élèves n'importe où (et à n'importe quelle heure) avec possibilité d'imposer une deadline indépendante de l'aspect matériel (on prend le dernier commit avant la deadline, sans compter les suivants).
 
 	\end{itemize}
 
@@ -21,24 +20,50 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Diapo Github
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
 	\frametitle{Gestion des TP}
-	\framesubtitle{Problèmes divers}
+	\framesubtitle{Avantages élèves}
 
 	\begin{itemize}[<+->]
-		\item Besoin de penser chaque semaine à se connecter sur un ordi du lycée pour mettre en place le TP
+		\item Sauvegarde et archivage automatique du travail des élèves.
 
-		\item Défilé des élèves le jour de la deadline (le mardi) pour accéder aux ordis du lycée et y mettre leur travail du WE.
+		\item Possibilité de poser des questions lors des commits.
 
-		\item Pas de sauvegarde régulière du travail (bug Pyzo d'enregistrement du fichier temporaire)
+		\visible<2-> {
+		\begin{center}
+				\includegraphics[width=0.8\linewidth]{figures/github_questions_commit.png}
+		\end{center}
+		}
 
-		\item Nombreux mails d'élèves qui ont oublié de mettre leur travail sur les ordis du lycée
+		\item Feedback possible depuis n'importe où directement dans le code des commits des élèves.
 
-		\item Pas d'archivage du côté élève (les dossiers sont effacés après récupération)
+		\visible<3-> {
+			\begin{center}
+					\includegraphics[width=0.8\linewidth]{figures/github_commentaires_commit.png}
+			\end{center}
+		}
 
-		\item etc.
+	\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Gestion des TP}
+	\framesubtitle{Avantages profs}
+
+	\begin{itemize}[<+->]
+		\item Suivi facilité du travail des élèves durant les TP (et au-dehors)
+
+		\item Conseils localisés et personnalisés
+
+		\item Accès direct au code pour identifier les problèmes
+
+		\item Détermination facilitée des fraudeurs potentiels
+
+		\item Gestion entière scriptée, moins de manipulations «manuelles» nécessaires
 
 	\end{itemize}
 
